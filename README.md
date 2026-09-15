@@ -1,131 +1,192 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,100:6F61FF&height=220&section=header&text=Aliaa%20Gamal&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Systems%20Engineer%20%7C%20Cloud%20Engineer%20%7C%20ML%2FAI%20Solutions%20Architect&descAlignY=54&descSize=18" width="100%" alt="header" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=Aliaa%20Gamal%20😊&fontSize=55&fontColor=ffffff"
+    width="100%"
+    alt="Aliaa Gamal"
+  />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=500&color=6F61FF&center=true&vCenter=true&width=750&lines=Building+Intelligent+Systems+from+Scratch;Architecting+ML+Solutions+in+Production;Designing+Secure+Multi-Tier+Cloud+Architectures;From+Models+to+Scalable+AI+Applications" alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=1&pause=1000000&color=ffffff&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Cloud+%26+Infrastructure"
+    alt="Software Engineer | Cloud & Infrastructure"
+  />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/aliaa-gamal-659a792b0"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-  <a href="https://wa.me/201098342261"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=ffffff&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <i>Computer Science graduate (Zagazig University, Honors — Excellent Grade) engineering complete AI systems and the cloud infrastructure that runs them —<br/>
-  from data pipelines to production deployment, from backend APIs to intelligent agents, from secure AWS architectures to CI/CD automation.</i>
+  <a href="https://linkedin.com/in/aliaa-gamal-659a792b0">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:alliaagamall@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://kaggle.com/aliaagamal">
+    <img src="https://cdn.simpleicons.org/kaggle/20BEFF" width="44" height="44" alt="Kaggle" />
+  </a>
+</p>
+<p align="center">
+  <i>
+    Computer Science graduate from Zagazig University, focused on designing secure,
+    scalable cloud systems and the applications that run on them —
+    from infrastructure and networking to backend services, automation, and deployment.
+  </i>
 </p>
 
 <br/>
 
-## 🧠 Skills
-
-**Languages & Backend**
+## ☁️ Cloud & Infrastructure
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,cpp,java,postgres,fastapi,django,flask" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,docker,kubernetes,linux&perline=7" height="48" />
 </p>
 
-**Cloud & DevOps**
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,terraform,docker,kubernetes,githubactions,linux" />
-</p>
-
-**Databases & Tools**
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,git,vscode,jupyter" />
-</p>
-
-**Machine Learning & AI**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=xgboost&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-</p>
-
-**AI Agents & LLM Frameworks**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat-square&logo=llama&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/AutoGen-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-FF6B6B?style=flat-square&logo=ai&logoColor=white" />
-</p>
-
-**MLOps & Visualization**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" />
+  <img src="https://skillicons.dev/icons?i=cloudflare,nginx&perline=2" height="48" />
 </p>
 
 <br/>
 
-## Featured Projects
+## ⚙️ DevOps & Automation
 
-| Project | Stack | Link |
-|---|---|---|
-| **RetailEdge** — Multi-tier cloud app with private app/data layers behind CloudFront, automated CI/CD | AWS · Terraform · Docker · CI/CD | [Infra](https://github.com/aliaagamall/retail-edge-aws) · [App](https://github.com/aliaagamall/retailedge-app) |
-| **AWS Cloud Projects** — Hands-on repo implementing every module of a Coursera/Packt AWS course | AWS | [GitHub](https://github.com/aliaagamall/cloud-projects) |
-| **Legal AI Assistant** — RAG-based Q&A system for legal questions, deployed as a FastAPI app | FastAPI · RAG · LLM | [Live Demo](https://huggingface.co/spaces/alliaa/rag-legal-api) |
-| **AI Financial Chatbot** — RAG + generative AI chatbot turning financial data into plain-language answers | RAG · Generative AI | [GitHub](https://github.com/aliaagamall/ALCHATBOT_FINANCE) |
-| **Bank Customer Churn Prediction** — ML model on 10k-record dataset, Streamlit app + Power BI dashboard | Scikit-learn · Streamlit · Power BI | [GitHub](https://github.com/aliaagamall/data_science_projects/blob/master/bank_customer_churn_prediction) |
-| **MediPredict** — Ordinal classification for medical entrance exam performance, with SMOTE + Flask app | Scikit-learn · Flask | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/master/MediPredict) |
-| **Life Expectancy Prediction** — Cleaned data, trained model, deployed as a Flask web app | Flask · Scikit-learn | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/13de533e67768e755f621fad10efaad2ef5340e9/life-expectancy) |
-| **Student Performance & Behavior Analysis** — EDA and statistical analysis of student outcomes | Pandas · EDA | [Kaggle](https://www.kaggle.com/code/aliaagamal/student-performance-behavior-analysis) |
-| **Email Classification (NLP)** — Abusive vs. non-abusive email text classifier | NLP · Scikit-learn | [Kaggle](https://www.kaggle.com/code/aliaagamal/email-classification) |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=githubactions,ansible,git,docker,linux&perline=5" height="48" />
+</p>
+
+<br/>
+
+## 💻 Languages & Backend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,java,cpp&perline=4" height="48" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,fastapi,django,flask&perline=4" height="48" />
+</p>
+
+<br/>
+
+## 🗄️ Databases & Storage
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite&perline=5" height="48" />
+</p>
+
+<br/>
+
+## 🤖 AI & Data Background
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&perline=3" height="48" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Scikit--learn-18181B?style=for-the-badge&logo=scikit-learn&logoColor=F7931E" height="32" />
+  <img src="https://img.shields.io/badge/Pandas-18181B?style=for-the-badge&logo=pandas&logoColor=150458" height="32" />
+  <img src="https://img.shields.io/badge/NumPy-18181B?style=for-the-badge&logo=numpy&logoColor=4DABCF" height="32" />
+  <img src="https://img.shields.io/badge/LangChain-18181B?style=for-the-badge&logo=chainlink&logoColor=FFFFFF" height="32" />
+  <img src="https://img.shields.io/badge/OpenAI-18181B?style=for-the-badge&logo=openai&logoColor=FFFFFF" height="32" />
+</p>
+
+<br/>
+
+## 😋 Featured Projects
+
+| Project                                                                                                                                            | Stack                               | Link                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **RetailEdge** — Secure multi-tier cloud architecture with private application and data layers, CloudFront, WAF, Terraform, Docker, and CI/CD      | AWS · Terraform · Docker · CI/CD    | [Infra](https://github.com/aliaagamall/retail-edge-aws) · [App](https://github.com/aliaagamall/retailedge-app)               |
+| **AWS Cloud Projects** — Hands-on implementations covering AWS cloud architecture, networking, security, compute, storage, and serverless services | AWS · Terraform                     | [GitHub](https://github.com/aliaagamall/cloud-projects)                                                                      |
+| **Legal AI Assistant** — RAG-based Q&A system for legal questions exposed through a FastAPI application                                            | FastAPI · RAG · LLM                 | [Live Demo](https://huggingface.co/spaces/alliaa/rag-legal-api)                                                              |
+| **AI Financial Chatbot** — RAG and generative AI application for turning financial data into natural-language answers                              | RAG · Generative AI                 | [GitHub](https://github.com/aliaagamall/ALCHATBOT_FINANCE)                                                                   |
+| **Bank Customer Churn Prediction** — ML model with an interactive Streamlit application and Power BI dashboard                                     | Scikit-learn · Streamlit · Power BI | [GitHub](https://github.com/aliaagamall/data_science_projects/blob/master/bank_customer_churn_prediction)                    |
+| **MediPredict** — Ordinal classification application with SMOTE-based preprocessing and Flask deployment                                           | Scikit-learn · Flask                | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/master/MediPredict)                                       |
+| **Life Expectancy Prediction** — Data preprocessing, model training, and Flask-based deployment                                                    | Flask · Scikit-learn                | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/13de533e67768e755f621fad10efaad2ef5340e9/life-expectancy) |
+| **Student Performance & Behavior Analysis** — Exploratory and statistical analysis of student outcomes                                             | Pandas · EDA                        | [Kaggle](https://www.kaggle.com/code/aliaagamal/student-performance-behavior-analysis)                                       |
+| **Email Classification** — NLP classifier for abusive and non-abusive email text                                                                   | NLP · Scikit-learn                  | [Kaggle](https://www.kaggle.com/code/aliaagamal/email-classification)                                                        |
 
 <br/>
 
 ## 🎓 Education & Training
 
-- 🎓 **B.Sc. in Computer Science** — Zagazig University, Faculty of Computers and Informatics *(Graduated with Honors, Excellent Grade, GPA 3.7)*
-- ☁️ **Cloud Computing Training** — National Telecommunication Institute (NTI)
-- 📊 **Data Science Track** — Digital Egypt Pioneers Initiative (DEPI), 6-month program
-- 🤖 **Machine Learning Program** — Information Technology Institute (ITI)
-- 🏆 **Cloud & AI Competition Track (Bootcamp Trainee)** — Huawei ICT Academy, selected among 2,000+ applicants
+* 🎓 **B.Sc. in Computer Science** — Zagazig University, Faculty of Computers and Informatics
 
-## 🏅 Achievements & Certifications
-
-- 🏆 Qualified for the **Regional Phase, Huawei ICT Competition (Cloud Track)** — representing Egypt
-- 🥈 **Top 10 Finalist**, DevFest Mansoura Hackathon — team "CS Pioneers"
-- ☁️ AWS Academy Graduate · Red Hat System Administration I · Ubuntu Linux Essentials · Computer Network Fundamentals
-- 🤖 5-Day Gen AI Intensive · Advanced Learning Algorithms · Supervised Machine Learning · Deep Learning · Computer Vision · TinyML
+  * Graduated with Honors, Excellent Grade — GPA 3.7
+* ☁️ **Cloud Computing Training** — National Telecommunication Institute (NTI)
+* 📊 **Data Science Track** — Digital Egypt Pioneers Initiative (DEPI), 6-month program
+* 🤖 **Machine Learning Program** — Information Technology Institute (ITI)
+* 🏆 **Cloud & AI Competition Track** — Huawei ICT Academy, selected among 2,000+ applicants
 
 <br/>
 
-## 📊 GitHub Stats
+## 🏅 Achievements & Certifications
+
+* 🏆 [**Huawei ICT Competition — Cloud Track**](https://drive.google.com/file/d/1LJmSHjE_N4sUQ6BZV01MMa9bolD8EKrP/view?usp=drive_link)
+
+  * Qualified for the Regional Phase representing Egypt
+
+* 🥈 [**Top 10 Finalist — DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drive_link)
+
+  * Team: CS Pioneers
+
+* ☁️ [**Cloud Services Management and Operation — NTI**](https://drive.google.com/file/d/1EH9XcdGXE-LQNCLYcCj3heAimKoUxGpX/view?usp=drivesdk)
+
+* ☁️ [**AWS Academy Graduate — Cloud Foundations**](https://www.credly.com/go/94eTPSa4)
+
+* 🔴 [**Red Hat System Administration I**](https://drive.google.com/file/d/1LQLIjeOUEUwuvqglQKFzJnkOWLqm8SZ3/view?usp=drivesdk)
+
+* 🐧 [**Ubuntu Linux Essentials**](https://drive.google.com/file/d/16m7UFjil0QtMJu6OfxPsKeEyujaxAL_s/view?usp=drivesdk)
+
+* 🌐 [**Computer Network Fundamentals**](https://drive.google.com/file/d/1ugMF0f5ddFbatB7l1Sl8qzhzrm-J3-Q4/view?usp=drivesdk)
+
+* 🌐 [**Implementation of Computer Network Fundamentals**](https://drive.google.com/file/d/1XNoBXz5SVcBOL7UvuwZPuX0zjab78BG0/view?usp=drivesdk)
+
+* 📊 [**Digital Egypt Pioneers Initiative (DEPI) — Data Science Track**](https://drive.google.com/file/d/1FNJDYvnHhJQk577s3W3DJq4117pXEIOY/view?usp=drivesdk)
+
+* 🤖 [**Machine Learning Program — ITI**](https://drive.google.com/file/d/1n-po1YQficueXwVpGRutes2pXrQ__77H/view?usp=drivesdk)
+
+* 🤖 [**5-Day Gen AI Intensive — Kaggle**](https://www.kaggle.com/certification/badges/aliaagamal/96)
+
+* 📚 [**Advanced Learning Algorithms — Coursera**](https://www.coursera.org/account/accomplishments/verify/NUBXL57XRBGN)
+
+* 🧠 [**Intro to Deep Learning — Kaggle**](https://www.kaggle.com/learn/certification/aliaagamal/intro-to-deep-learning)
+
+* 👁️ [**Computer Vision — Kaggle**](https://www.kaggle.com/learn/certification/aliaagamal/computer-vision)
+
+* 📡 [**TinyML — edX**](https://courses.edx.org/certificates/2cabe3fb40104fe2a5521c1c729284ed)
+
+* 📚 [**Supervised Machine Learning — Coursera**](https://www.coursera.org/account/accomplishments/verify/ZBUD7RA2M8LD)
+
+* 🧹 [**Data Cleaning — Kaggle**](https://www.kaggle.com/learn/certification/aliaagamal/data-cleaning)
+
+* 📚 **Algorithmic Toolbox — Coursera**
+
+
+<br/>
+
+## 📊 GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aliaagamall&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
-  <img height="165" src="https://streak-stats.demolab.com?user=aliaagamall&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img
+    height="165"
+    src="https://github-readme-streak-stats.herokuapp.com?user=aliaagamall&theme=tokyonight&hide_border=true&border_radius=12"
+    alt="GitHub Streak"
+  />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aliaagamall&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
+  <img src="https://img.shields.io/github/followers/aliaagamall?label=Followers&style=flat-square&color=7C3AED&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/aliaagamall?label=Stars&style=flat-square&color=F97368&logo=github" alt="Stars" />
+  <img
+    src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=Public%20Repos&query=$.public_repos&style=flat-square&color=7C3AED&logo=github"
+    alt="Public Repositories"
+  />
 </p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aliaagamall&theme=tokyonight&no-bg=true&no-frame=true&margin-w=10&row=1" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aliaagamall&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
-> 💡 If a card above shows "Something went wrong" instead of loading, that's a temporary rate-limit on the free shared stats service (very common — not something wrong on your end). It usually fixes itself in a few minutes; refreshing the page or waiting a bit resolves it.
 
 <br/>
 
@@ -133,33 +194,52 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake-dark.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake.svg"
+      width="100%"
+      alt="GitHub Contribution Snake"
+    />
   </picture>
 </p>
 
-<sub>To activate: create a repo named exactly <code>aliaagamall</code> (your GitHub profile repo, if you don't have one yet), add the included <code>snake.yml</code> file to <code>.github/workflows/</code> in it, then push once. GitHub will auto-generate this animation daily from your contribution graph — no further maintenance needed.</sub>
-
 <br/>
 
-## 💡 Current Focus
-
-- Deploying secure, scalable multi-tier architectures on AWS with Terraform and CI/CD
-- Building production-ready AI agents with LangChain and AutoGen
-- Implementing MLOps pipelines for continuous model training and deployment
-- Developing FastAPI backends for real-time ML inference
-- Architecting data pipelines backed by vector databases
-
-<br/>
+## 🎯 Current Focus
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6F61FF,100:FF6F61&height=150&section=footer" width="100%" />
+  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,linux&perline=5" height="44" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=Profile%20Views&color=6F61FF&style=flat-square" />
+  <i>
+    Learning by building — designing cloud infrastructure, automating deployments,
+    and connecting applications to scalable AWS services.
+  </i>
+</p>
+
+<br/>
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:F97368,100:7C3AED&height=150&section=footer"
+    width="100%"
+    alt="footer"
+  />
 </p>
 
 <p align="center">
-  <i>"From models to microservices, from data to deployment, from code to cloud — building the future of AI, one system at a time."</i>
+  <img
+    src="https://komarev.com/ghpvc/?username=aliaagamall&label=Profile%20Views&color=7C3AED&style=flat-square"
+    alt="Profile Views"
+  />
+</p>
+
+<p align="center">
+  <i>
+    "From application code to cloud infrastructure — building reliable systems, one layer at a time."
+  </i>
 </p>
