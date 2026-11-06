@@ -96,19 +96,29 @@ A local-first microservices platform. I am adding metrics, centralized logging, 
 
 ## Toolbox
 
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,azure,terraform,ansible,docker,kubernetes,githubactions,gitlab,jenkins,linux,nginx,prometheus,grafana&perline=13" alt="AWS, Azure, Terraform, Ansible, Docker, Kubernetes, GitHub Actions, GitLab, Jenkins, Linux, Nginx, Prometheus, Grafana" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=python,javascript,java,cpp,nodejs,express,fastapi,django,flask,mysql,postgres,mongodb,redis,sqlite,tensorflow,pytorch&perline=16" alt="Python, JavaScript, Java, C++, Node.js, Express, FastAPI, Django, Flask, MySQL, PostgreSQL, MongoDB, Redis, SQLite, TensorFlow, PyTorch" />
-</p>
+**Cloud and infrastructure**
 
-**Cloud and infrastructure:** AWS, Azure, Terraform, Docker, Kubernetes, Linux, Nginx
-**Automation:** GitHub Actions, GitLab, Jenkins, Ansible, Git, Bash
-**Observability (learning and building):** Prometheus, Grafana
-**Backend:** Python, JavaScript, Java, C++, Node.js, Express, FastAPI, Django, Flask
-**Data stores:** MySQL, PostgreSQL, MongoDB, Redis, SQLite
-**AI and data:** TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, LangChain, OpenAI
+<img src="https://skillicons.dev/icons?i=aws,azure,terraform,docker,kubernetes,linux,nginx&perline=15" height="48" alt="Cloud and infrastructure" />
+
+**CI/CD and automation**
+
+<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins,ansible,git,bash&perline=15" height="48" alt="CI/CD and automation" />
+
+**Observability**
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15" height="48" alt="Observability" />
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=python,javascript,java,cpp,nodejs,express,fastapi,django,flask&perline=15" height="48" alt="Backend" />
+
+**Data stores**
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite&perline=15" height="48" alt="Data stores" />
+
+**AI and data**
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy&perline=15" height="48" alt="AI and data" />
 
 <br/>
 
