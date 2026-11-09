@@ -63,14 +63,14 @@ A legal assistant for Egyptian criminal law, built as my CS graduation project. 
 
 ### PulseTrace (in progress)
 
-A local-first microservices platform. I am adding metrics, centralized logging, and distributed tracing one step at a time, to learn observability by building it.
+A local-first microservices platform (API Gateway, Order and Payment services) built with Node.js, Express, and PostgreSQL, with a database per service and SQL migrations, containerized with Docker Compose using health checks and startup ordering. It has structured JSON logging (Pino) with request ID correlation across services, Prometheus metrics (request rate, latency histograms, error rate, business counters) in a provisioned Grafana dashboard, and automated tests across unit/API, end-to-end, integration, logging, and metrics layers. Next: centralized logging (Loki), distributed tracing (OpenTelemetry, Jaeger), alerting, and Kubernetes.
 
 <p align="center">
   <img src="assets/pulsetrace.svg" width="100%" alt="PulseTrace: microservices feeding Prometheus, Loki and Jaeger, visualised in Grafana." />
 </p>
 
-**Stack:** Node.js, PostgreSQL, Docker, Prometheus, Grafana, Loki, Jaeger
-**Code:** private for now
+**Stack:** Node.js, Express, PostgreSQL, Docker Compose, Prometheus, Grafana
+**Code:** [GitHub](https://github.com/aliaagamall/pulsetrace)
 
 <br/>
 
@@ -107,6 +107,14 @@ A local-first microservices platform. I am adding metrics, centralized logging, 
 **Observability**
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15" height="48" alt="Observability" />
+
+<p>
+  <img src="https://img.shields.io/badge/Loki-18181B?style=for-the-badge&logo=grafana&logoColor=F46800" height="32" alt="Loki" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-18181B?style=for-the-badge&logo=opentelemetry&logoColor=425CC7" height="32" alt="OpenTelemetry" />
+  <img src="https://img.shields.io/badge/Jaeger-18181B?style=for-the-badge&logo=jaeger&logoColor=60D0E4" height="32" alt="Jaeger" />
+  <img src="https://img.shields.io/badge/Fluent%20Bit-18181B?style=for-the-badge&logo=fluentbit&logoColor=49BDA5" height="32" alt="Fluent Bit" />
+  <img src="https://img.shields.io/badge/Alertmanager-18181B?style=for-the-badge&logo=prometheus&logoColor=E6522C" height="32" alt="Alertmanager" />
+</p>
 
 **Backend**
 
