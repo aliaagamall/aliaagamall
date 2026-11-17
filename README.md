@@ -3,19 +3,20 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=F97368&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Designing secure cloud architectures, building scalable backends, automating infrastructure" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=FF6B8B&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Designing secure cloud architectures, building scalable backends, automating infrastructure" />
 </p>
 
 <p align="center">
-  <a href="https://aliaa-portfolio-drab.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/aliaa-gamall"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+  <a href="https://aliaa-portfolio-drab.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B8B?style=for-the-badge&logo=vercel&logoColor=1B1740" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/aliaa-gamall"><img src="https://img.shields.io/badge/LinkedIn-1B1740?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/Gmail-1B1740?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/Kaggle-1B1740?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+  <a href="https://medium.com/@aliaagamal"><img src="https://img.shields.io/badge/Medium-1B1740?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 </p>
 
-I design secure, scalable cloud systems and the applications that run on them: infrastructure and networking, backend services, automation, and deployment. I graduated in Computer Science from Zagazig University in 2026 (GPA 3.7/4.0, with honors).
+I bridge software engineering and cloud infrastructure to build reliable, scalable systems: infrastructure and networking, backend services, automation, and deployment. I graduated in Computer Science from Zagazig University in 2026 (GPA 3.7/4.0, with honors).
 
-I like to own the whole path, so most of my projects start at the application code and end at the infrastructure it runs on.
+I like to own the whole path, so most of my projects start at the application code and end at the infrastructure it runs on. I work in small tested increments, secure every layer, automate delivery, add observability, and document decisions so the work is easy to review and hand over.
 
 <p align="center">
   <img src="assets/code-to-prod.svg" width="100%" alt="Pipeline from code to production: code, package, pipeline, infrastructure, orchestrate, observe, with the tools I use at each stage." />
@@ -27,10 +28,10 @@ I like to own the whole path, so most of my projects start at the application co
 
 ### RetailEdge
 
-A secure multi-tier AWS architecture. The application and data layers are private and sit behind CloudFront and WAF. Access follows least-privilege IAM, infrastructure is defined in Terraform, and the app ships as Docker images through CI/CD.
+My NTI Cloud Operations graduation project: a multi-tier web application infrastructure designed around scalability, reliability, security, and repeatable deployments. The application and data layers are private behind CloudFront and WAF. Access follows least-privilege IAM (Secrets Manager, VPC endpoints, Systems Manager), infrastructure is defined in Terraform modules, and the app ships as Docker images through GitHub Actions with scripted validation.
 
 <p align="center">
-  <img src="assets/retailedge.svg" width="100%" alt="RetailEdge architecture: user to CloudFront and WAF to private application and data layers, defined with Terraform." />
+  <img src="assets/retailedge.svg" width="100%" alt="RetailEdge architecture: user to CloudFront and WAF, then S3 for the frontend and an internal ALB for the API, into a private EC2 Auto Scaling tier and RDS MySQL plus Redis, all defined with Terraform." />
 </p>
 
 <details>
@@ -39,17 +40,20 @@ A secure multi-tier AWS architecture. The application and data layers are privat
 ```mermaid
 flowchart LR
     U([User]) --> E["CloudFront + WAF"]
-    E --> A["Private application layer"]
-    A --> D["Private data layer"]
+    E --> S["S3 frontend"]
+    E --> L["Internal ALB"]
+    L --> A["Private app tier"]
+    A --> D1[("RDS MySQL")]
+    A --> D2[("Redis")]
     T["Terraform"] -. "provisions" .-> E
     T -.-> A
-    T -.-> D
+    T -.-> D1
 ```
 
 </details>
 
-**Stack:** AWS, Terraform, Docker, GitHub Actions
-**Code:** [Infrastructure](https://github.com/aliaagamall/retail-edge-aws) | [Application](https://github.com/aliaagamall/retailedge-app)
+**Stack:** AWS, Terraform, Docker, GitHub Actions, MySQL (RDS), Redis
+**Code:** [Infrastructure](https://github.com/aliaagamall/retail-edge-aws) | [Application](https://github.com/aliaagamall/retailedge-app/tree/feat/retailedge-aws-integration)
 
 ### Verdict AI
 
@@ -63,25 +67,27 @@ A legal assistant for Egyptian criminal law, built as my CS graduation project. 
 
 ### PulseTrace (in progress)
 
-A local-first microservices platform (API Gateway, Order and Payment services) built with Node.js, Express, and PostgreSQL, with a database per service and SQL migrations, containerized with Docker Compose using health checks and startup ordering. It has structured JSON logging (Pino) with request ID correlation across services, Prometheus metrics (request rate, latency histograms, error rate, business counters) in a provisioned Grafana dashboard, and automated tests across unit/API, end-to-end, integration, logging, and metrics layers. Next: centralized logging (Loki), distributed tracing (OpenTelemetry, Jaeger), alerting, and Kubernetes.
+A local-first microservices platform that simulates an e-commerce order flow across three Node.js services (API Gateway, Order and Payment), with a PostgreSQL database per service, SQL migrations, and Docker Compose with health checks and startup ordering. It has structured JSON logging (Pino) with request ID correlation across services, Prometheus metrics (request rate, latency histograms, error rate, business counters) in a provisioned Grafana dashboard, and automated tests across unit/API, end-to-end, integration, logging, and metrics layers, including tests that verify the observability layer itself. Next: centralized logging (Fluent Bit and Loki), distributed tracing (OpenTelemetry and Jaeger), alerting (Alertmanager), and Kubernetes.
 
 <p align="center">
-  <img src="assets/pulsetrace.svg" width="100%" alt="PulseTrace: microservices feeding Prometheus, Loki and Jaeger, visualised in Grafana." />
+  <img src="assets/pulsetrace.svg" width="100%" alt="PulseTrace: a gateway and two services with their own databases emit logs and metrics. Prometheus and Grafana are implemented; Loki, Jaeger and Alertmanager are planned." />
 </p>
 
-**Stack:** Node.js, Express, PostgreSQL, Docker Compose, Prometheus, Grafana
+**Stack:** Node.js, Express, PostgreSQL, Docker Compose, Pino, Prometheus, Grafana
 **Code:** [GitHub](https://github.com/aliaagamall/pulsetrace)
 
 <br/>
 
 <details>
-<summary><b>More projects</b> (cloud, distributed systems, data science)</summary>
+<summary><b>More projects</b> (cloud, reliability, distributed systems, data science)</summary>
 
 <br/>
 
 | Project | What it is | Stack | Link |
 | --- | --- | --- | --- |
-| AWS Cloud Projects | Hands-on implementations across AWS architecture, networking, security, compute, storage, and serverless | AWS, Terraform | [GitHub](https://github.com/aliaagamall/cloud-projects) |
+| AWS Cloud Projects (in progress) | Hands-on AWS projects I rebuild while studying the Packt AWS Cloud Projects course on Coursera, each one designed, provisioned with IaC, tested, and documented | AWS, Terraform, CloudFormation | [GitHub](https://github.com/aliaagamall/cloud-projects) |
+| Site Reliability Engineering (in progress) | Course notes, hands-on labs, diagrams, and examples on SLIs and SLOs, error budgets, observability, incidents, toil, and GitOps recovery | SRE, Observability | [GitHub](https://github.com/aliaagamall/site-reliability-engineering) |
+| Test design for a sailing-rules method | Equivalence partitioning, statement coverage (JaCoCo), combinational testing, and random testing on a Java method | Java, TestNG, JaCoCo | [Report](https://drive.google.com/file/d/1KncfHyRIVb04JdmHhv6Ej6lNhTCK08Pe/view?usp=drivesdk) |
 | Distributed Systems Research | Comparison of replication protocols (Primary-Backup, Chain Replication, CRAQ) with a SimPy simulation | Python, SimPy | [Document](https://docs.google.com/document/d/1DzpsZYGCqlCW_qIQgCOPHbceJzTQaZXg/edit?usp=drivesdk&ouid=106368767340190355862&rtpof=true&sd=true) |
 | AI Financial Chatbot | RAG and generative AI app that turns financial data into natural-language answers | RAG, Generative AI | [GitHub](https://github.com/aliaagamall/ALCHATBOT_FINANCE) |
 | Bank Customer Churn Prediction | ML model with an interactive Streamlit app and a Power BI dashboard | Scikit-learn, Streamlit, Power BI | [GitHub](https://github.com/aliaagamall/data_science_projects/blob/master/bank_customer_churn_prediction) |
@@ -98,15 +104,17 @@ A local-first microservices platform (API Gateway, Order and Payment services) b
 
 **Cloud and infrastructure**
 
-<img src="https://skillicons.dev/icons?i=aws,azure,terraform,docker,kubernetes,linux,nginx&perline=15" height="48" alt="Cloud and infrastructure" />
+<img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux&perline=15" height="48" alt="Cloud and infrastructure" />
 
 **CI/CD and automation**
 
-<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins,ansible,git,bash&perline=15" height="48" alt="CI/CD and automation" />
+<img src="https://skillicons.dev/icons?i=githubactions,git,github,bash&perline=15" height="48" alt="CI/CD and automation" />
 
 **Observability**
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15" height="48" alt="Observability" />
+
+Learning next, planned for PulseTrace:
 
 <p>
   <img src="https://img.shields.io/badge/Loki-18181B?style=for-the-badge&logo=grafana&logoColor=F46800" height="32" alt="Loki" />
@@ -118,11 +126,11 @@ A local-first microservices platform (API Gateway, Order and Payment services) b
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=python,javascript,java,cpp,nodejs,express,fastapi,django,flask&perline=15" height="48" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask&perline=15" height="48" alt="Backend" />
 
 **Data stores**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite&perline=15" height="48" alt="Data stores" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,redis&perline=15" height="48" alt="Data stores" />
 
 **AI and data**
 
@@ -133,13 +141,13 @@ A local-first microservices platform (API Gateway, Order and Payment services) b
 ## GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=aliaagamall&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub streak" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=aliaagamall&background=EEF0FF&border=1B1740&ring=FF6B8B&fire=FF6B8B&currStreakNum=1B1740&currStreakLabel=1B1740&sideNums=1B1740&sideLabels=4A4670&dates=4A4670&hide_border=false&border_radius=12" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/aliaagamall?label=Followers&style=flat-square&color=7C3AED&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/aliaagamall?label=Stars&style=flat-square&color=F97368&logo=github" alt="Stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=Public%20Repos&query=$.public_repos&style=flat-square&color=7C3AED&logo=github" alt="Public repositories" />
+  <img src="https://img.shields.io/github/followers/aliaagamall?label=Followers&style=flat-square&color=A58BFF&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/aliaagamall?label=Stars&style=flat-square&color=FF6B8B&logo=github" alt="Stars" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=Public%20Repos&query=$.public_repos&style=flat-square&color=A58BFF&logo=github" alt="Public repositories" />
 </p>
 
 <p align="center">
@@ -153,7 +161,7 @@ A local-first microservices platform (API Gateway, Order and Payment services) b
 
 ## Now
 
-I am adding observability to PulseTrace and preparing for the AWS Solutions Architect certification.
+I am adding observability to PulseTrace (logs, traces, alerting), building AWS projects from the Packt course, and studying SRE and DevSecOps. I am also preparing for the AWS Solutions Architect certification.
 
 <br/>
 
@@ -162,14 +170,14 @@ I am adding observability to PulseTrace and preparing for the AWS Solutions Arch
 **Education**
 
 - **B.Sc. in Computer Science**, Zagazig University, Faculty of Computers and Informatics (2022 to 2026). Graduated with honors, GPA 3.7/4.0
-- **Cloud Services Management and Operation**, National Telecommunication Institute (NTI). 3-month intensive training, final score 95%
-- **AI & Data Science Track**, Digital Egypt Pioneers Initiative (DEPI). 6-month program
-- **Machine Learning Program**, Information Technology Institute (ITI)
+- **Cloud Services Management and Operation**, National Telecommunication Institute (NTI), Jun to Aug 2026. Technical and soft-skills training, final score 95%
+- **Data Science Track**, Digital Egypt Pioneers Initiative (DEPI), Oct 2024 to Mar 2025
+- **Machine Learning Training**, Information Technology Institute (ITI), Sep 2024
 
 **Achievements and activities**
 
-- [**Huawei ICT Competition 2025-2026 Egypt, Cloud Track**](https://drive.google.com/file/d/1LJmSHjE_N4sUQ6BZV01MMa9bolD8EKrP/view?usp=drive_link): qualified for the Regional Phase representing Egypt
-- [**Top 10 Finalist, DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drive_link) (Dec 2024), team CS Pioneers
+- [**Huawei ICT Competition 2025-2026, Cloud Track**](https://drive.google.com/file/d/1LJmSHjE_N4sUQ6BZV01MMa9bolD8EKrP/view?usp=drivesdk): represented Egypt in the Regional Phase after the national selection process
+- [**Top 10 Finalist, DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drivesdk) (Dec 2024), team CS Pioneers
 - **GDG Lead:** guided students and supported their learning in technical topics
 
 <details>
@@ -182,14 +190,15 @@ I am adding observability to PulseTrace and preparing for the AWS Solutions Arch
 - [Cloud Services Management and Operation, NTI](https://drive.google.com/file/d/1EH9XcdGXE-LQNCLYcCj3heAimKoUxGpX/view?usp=drivesdk)
 - [AWS Academy Graduate, Cloud Foundations](https://www.credly.com/go/94eTPSa4)
 - [Deploying on Amazon EKS, AWS Skill Builder Lab](https://drive.google.com/file/d/1-5BEwOM7shCZTnvaDcz3xPcH4CcQCNCM/view?usp=sharing)
-- [DevOps Pro: Linux, Docker, Kubernetes, CI/CD & IaC, KodeKloud on Coursera](https://coursera.org/share/9eacb1818161d0659805bdaad13e6317)
-- [Observability Engineering: Metrics, Logs, and Traces, Edureka on Coursera](https://coursera.org/share/9d45a6219d52560a53bf85a54254c5a1)
+- [DevOps Pro: Linux, Docker, Kubernetes, CI/CD & IaC, Specialization, Coursera](https://www.coursera.org/account/accomplishments/specialization/U15SV2S44G8C)
+- [Observability Engineering: Metrics, Logs, and Traces, Coursera](https://coursera.org/share/9d45a6219d52560a53bf85a54254c5a1)
+- [Infrastructure Automation (IaC) Hands-On Labs, KodeKloud](https://learn.kodekloud.com/learn/certificate/7a2c7267-d016-4868-b779-d04087f05226)
 - [Mastering Docker Containers, Coursera](https://www.coursera.org/account/accomplishments/verify/9YDQ0I9T4PN7)
+- [Mastering Docker & Containers Hands-On Labs, KodeKloud](https://learn.kodekloud.com/learn/certificate/c57a6f05-885d-4b0c-a563-057c6dc57b09)
 - [Kubernetes Orchestration, Coursera](https://www.coursera.org/account/accomplishments/verify/Y8CHTP0VWNVW)
-- [DevOps Foundation, Coursera](https://coursera.org/share/16bad8f6f939d85992485775d4246533)
-- [Source Control & CI/CD, Coursera](https://coursera.org/share/f2597b7dcbbcf8f062acb996d32ab8e1)
-- [Hands-On Labs, KodeKloud](https://learn.kodekloud.com/learn/certificate/c57a6f05-885d-4b0c-a563-057c6dc57b09)
 - [Kubernetes Hands-On Labs, KodeKloud](https://learn.kodekloud.com/learn/certificate/e9f33d76-da15-489e-9a51-38c079a2116f)
+- [DevOps Foundation (Linux & Systems), Coursera](https://coursera.org/share/16bad8f6f939d85992485775d4246533)
+- [Source Control & CI/CD, Coursera](https://coursera.org/share/f2597b7dcbbcf8f062acb996d32ab8e1)
 
 **Systems and networking**
 
@@ -221,9 +230,9 @@ I am adding observability to PulseTrace and preparing for the AWS Solutions Arch
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97368,100:7C3AED&height=120&section=footer" width="100%" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B8B,100:A58BFF&height=120&section=footer" width="100%" alt="footer" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=Profile%20Views&color=7C3AED&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=Profile%20Views&color=A58BFF&style=flat-square" alt="Profile views" />
 </p>
