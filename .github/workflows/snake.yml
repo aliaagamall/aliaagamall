@@ -8,19 +8,24 @@ on:
     branches:
       - main
 
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: aliaagamall
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=1b1740&color_dots=#e3e6fb,#d4c9ff,#a58bff,#7b5cf0,#1b1740
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=ff6b8b
 
       - name: Push snake output to output branch
         uses: crazy-max/ghaction-github-pages@v4
