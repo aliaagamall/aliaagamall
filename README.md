@@ -1,17 +1,17 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Aliaa Gamal, computer scientist focused on cloud and DevOps. A request travels through CloudFront and WAF into private application and data layers." />
+ <p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Aliaa Gamal, Computer Scientist working across software engineering, cloud infrastructure, DevOps, reliability, security, and data and AI." />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=FF6B8B&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Designing secure cloud architectures, building scalable backends, automating infrastructure" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=FF6B8B&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Designing secure cloud architectures, building scalable backends, and automating infrastructure." />
 </p>
 
 <p align="center">
-  <a href="https://aliaa-portfolio-drab.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B8B?style=for-the-badge&logo=vercel&logoColor=1B1740" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/aliaa-gamall"><img src="https://img.shields.io/badge/LinkedIn-1B1740?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/Gmail-1B1740?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/Kaggle-1B1740?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-  <a href="https://medium.com/@aliaagamal"><img src="https://img.shields.io/badge/Medium-1B1740?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://aliaa-portfolio-drab.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-1B1740?style=for-the-badge&logo=vercel&logoColor=EEF0FF" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/aliaa-gamall"><img src="https://img.shields.io/badge/LINKEDIN-1B1740?style=for-the-badge&logo=linkedin&logoColor=EEF0FF" alt="LinkedIn" /></a>
+  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/EMAIL-1B1740?style=for-the-badge&logo=gmail&logoColor=EEF0FF" alt="Email" /></a>
+  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/KAGGLE-1B1740?style=for-the-badge&logo=kaggle&logoColor=EEF0FF" alt="Kaggle" /></a>
+  <a href="https://medium.com/@aliaagamal"><img src="https://img.shields.io/badge/MEDIUM-1B1740?style=for-the-badge&logo=medium&logoColor=EEF0FF" alt="Medium" /></a>
 </p>
 
 I bridge software engineering and cloud infrastructure to build reliable, scalable systems: infrastructure and networking, backend services, automation, and deployment. I graduated in Computer Science from Zagazig University in 2026 (GPA 3.7/4.0, with honors).
@@ -19,7 +19,7 @@ I bridge software engineering and cloud infrastructure to build reliable, scalab
 I like to own the whole path, so most of my projects start at the application code and end at the infrastructure it runs on. I work in small tested increments, secure every layer, automate delivery, add observability, and document decisions so the work is easy to review and hand over.
 
 <p align="center">
-  <img src="assets/code-to-prod.svg" width="100%" alt="Pipeline from code to production: code, package, pipeline, infrastructure, orchestrate, observe, with the tools I use at each stage." />
+  <img src="assets/code-to-prod.svg" width="100%" alt="Pipeline from code to production: code, package, pipeline, infrastructure, orchestrate, observe, with the tools used at each stage." />
 </p>
 
 <br/>
@@ -53,6 +53,7 @@ flowchart LR
 </details>
 
 **Stack:** AWS, Terraform, Docker, GitHub Actions, MySQL (RDS), Redis
+
 **Code:** [Infrastructure](https://github.com/aliaagamall/retail-edge-aws) | [Application](https://github.com/aliaagamall/retailedge-app/tree/feat/retailedge-aws-integration)
 
 ### Verdict AI
@@ -74,6 +75,7 @@ A local-first microservices platform that simulates an e-commerce order flow acr
 </p>
 
 **Stack:** Node.js, Express, PostgreSQL, Docker Compose, Pino, Prometheus, Grafana
+
 **Code:** [GitHub](https://github.com/aliaagamall/pulsetrace)
 
 <br/>
@@ -104,37 +106,49 @@ A local-first microservices platform that simulates an e-commerce order flow acr
 
 **Cloud and infrastructure**
 
-<img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux&perline=15" height="48" alt="Cloud and infrastructure" />
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux&perline=5" height="44" alt="Cloud and infrastructure" />
+</p>
 
 **CI/CD and automation**
 
-<img src="https://skillicons.dev/icons?i=githubactions,git,github,bash&perline=15" height="48" alt="CI/CD and automation" />
+<p>
+  <img src="https://skillicons.dev/icons?i=githubactions,git,github,bash&perline=4" height="44" alt="CI/CD and automation" />
+</p>
 
 **Observability**
 
-<img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=15" height="48" alt="Observability" />
-
-Learning next, planned for PulseTrace:
-
 <p>
-  <img src="https://img.shields.io/badge/Loki-18181B?style=for-the-badge&logo=grafana&logoColor=F46800" height="32" alt="Loki" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-18181B?style=for-the-badge&logo=opentelemetry&logoColor=425CC7" height="32" alt="OpenTelemetry" />
-  <img src="https://img.shields.io/badge/Jaeger-18181B?style=for-the-badge&logo=jaeger&logoColor=60D0E4" height="32" alt="Jaeger" />
-  <img src="https://img.shields.io/badge/Fluent%20Bit-18181B?style=for-the-badge&logo=fluentbit&logoColor=49BDA5" height="32" alt="Fluent Bit" />
-  <img src="https://img.shields.io/badge/Alertmanager-18181B?style=for-the-badge&logo=prometheus&logoColor=E6522C" height="32" alt="Alertmanager" />
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=2" height="44" alt="Observability" />
 </p>
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask&perline=15" height="48" alt="Backend" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask&perline=7" height="44" alt="Backend" />
+</p>
 
 **Data stores**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,redis&perline=15" height="48" alt="Data stores" />
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis&perline=3" height="44" alt="Data stores" />
+</p>
 
 **AI and data**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy&perline=15" height="48" alt="AI and data" />
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy&perline=5" height="44" alt="AI and data" />
+</p>
+
+**Learning next — planned for PulseTrace**
+
+<p>
+  <img src="https://img.shields.io/badge/LOKI-1B1740?style=for-the-badge&logo=grafana&logoColor=EEF0FF" alt="Loki" />
+  <img src="https://img.shields.io/badge/OPENTELEMETRY-1B1740?style=for-the-badge&logo=opentelemetry&logoColor=EEF0FF" alt="OpenTelemetry" />
+  <img src="https://img.shields.io/badge/JAEGER-1B1740?style=for-the-badge&logo=jaeger&logoColor=EEF0FF" alt="Jaeger" />
+  <img src="https://img.shields.io/badge/FLUENT_BIT-1B1740?style=for-the-badge&logo=fluentbit&logoColor=EEF0FF" alt="Fluent Bit" />
+  <img src="https://img.shields.io/badge/ALERTMANAGER-1B1740?style=for-the-badge&logo=prometheus&logoColor=EEF0FF" alt="Alertmanager" />
+</p>
 
 <br/>
 
@@ -145,9 +159,9 @@ Learning next, planned for PulseTrace:
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/aliaagamall?label=Followers&style=flat-square&color=A58BFF&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/aliaagamall?label=Stars&style=flat-square&color=FF6B8B&logo=github" alt="Stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=Public%20Repos&query=$.public_repos&style=flat-square&color=A58BFF&logo=github" alt="Public repositories" />
+  <img src="https://img.shields.io/github/followers/aliaagamall?label=FOLLOWERS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/aliaagamall?label=STARS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="GitHub stars" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=PUBLIC%20REPOS&query=$.public_repos&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="Public repositories" />
 </p>
 
 <p align="center">
@@ -169,16 +183,16 @@ I am adding observability to PulseTrace (logs, traces, alerting), building AWS p
 
 **Education**
 
-- **B.Sc. in Computer Science**, Zagazig University, Faculty of Computers and Informatics (2022 to 2026). Graduated with honors, GPA 3.7/4.0
-- **Cloud Services Management and Operation**, National Telecommunication Institute (NTI), Jun to Aug 2026. Technical and soft-skills training, final score 95%
-- **Data Science Track**, Digital Egypt Pioneers Initiative (DEPI), Oct 2024 to Mar 2025
-- **Machine Learning Training**, Information Technology Institute (ITI), Sep 2024
+- **B.Sc. in Computer Science**, Zagazig University, Faculty of Computers and Informatics (2022 to 2026). Graduated with honors, GPA 3.7/4.0.
+- **Cloud Services Management and Operation**, National Telecommunication Institute (NTI), Jun to Aug 2026. Technical and soft-skills training, final score 95%.
+- **Data Science Track**, Digital Egypt Pioneers Initiative (DEPI), Oct 2024 to Mar 2025.
+- **Machine Learning Training**, Information Technology Institute (ITI), Sep 2024.
 
 **Achievements and activities**
 
-- [**Huawei ICT Competition 2025-2026, Cloud Track**](https://drive.google.com/file/d/1LJmSHjE_N4sUQ6BZV01MMa9bolD8EKrP/view?usp=drivesdk): represented Egypt in the Regional Phase after the national selection process
-- [**Top 10 Finalist, DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drivesdk) (Dec 2024), team CS Pioneers
-- **GDG Lead:** guided students and supported their learning in technical topics
+- [**Huawei ICT Competition 2025-2026, Cloud Track**](https://drive.google.com/file/d/1LJmSHjE_N4sUQ6BZV01MMa9bolD8EKrP/view?usp=drivesdk): represented Egypt in the Regional Phase after the national selection process.
+- [**Top 10 Finalist, DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drivesdk) (Dec 2024), team CS Pioneers.
+- **GDG Lead:** guided students and supported their learning in technical topics.
 
 <details>
 <summary><b>Certifications</b></summary>
@@ -230,9 +244,9 @@ I am adding observability to PulseTrace (logs, traces, alerting), building AWS p
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B8B,100:A58BFF&height=120&section=footer" width="100%" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B8B,100:A58BFF&height=120&section=footer" width="100%" alt="Decorative portfolio footer" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=Profile%20Views&color=A58BFF&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=PROFILE%20VIEWS&color=1B1740&style=for-the-badge" alt="Profile views" />
 </p>
