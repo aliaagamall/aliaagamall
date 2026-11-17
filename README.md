@@ -1,28 +1,28 @@
- <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Aliaa Gamal, Computer Scientist working across software engineering, cloud infrastructure, DevOps, reliability, security, and data and AI." />
-</p>
+&#x20;\<p align="center">
+&#x20; \<img src="assets/hero.svg" width="100%" alt="Aliaa Gamal, Computer Scientist working across software engineering, cloud infrastructure, DevOps, reliability, security, and data and AI." />
+\</p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=FF6B8B&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure" alt="Designing secure cloud architectures, building scalable backends, and automating infrastructure." />
-</p>
+\<p align="center">
+&#x20; \<img src="[https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=700&color=FF6B8B&center=true&vCenter=true&width=750&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure](https://readme-typing-svg.herokuapp.com?font=Poppins\&size=22\&duration=3000\&pause=700\&color=FF6B8B\&center=true\&vCenter=true\&width=750\&lines=Designing+Secure+Cloud+Architectures;Building+Scalable+Backend+Systems;Automating+Infrastructure+with+Terraform+%26+CI%2FCD;From+Application+Code+to+Production+Infrastructure)" alt="Designing secure cloud architectures, building scalable backends, and automating infrastructure." />
+\</p>
 
-<p align="center">
-  <a href="https://aliaa-portfolio-drab.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-1B1740?style=for-the-badge&logo=vercel&logoColor=EEF0FF" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/aliaa-gamall"><img src="https://img.shields.io/badge/LINKEDIN-1B1740?style=for-the-badge&logo=linkedin&logoColor=EEF0FF" alt="LinkedIn" /></a>
-  <a href="mailto:alliaagamall@gmail.com"><img src="https://img.shields.io/badge/EMAIL-1B1740?style=for-the-badge&logo=gmail&logoColor=EEF0FF" alt="Email" /></a>
-  <a href="https://kaggle.com/aliaagamal"><img src="https://img.shields.io/badge/KAGGLE-1B1740?style=for-the-badge&logo=kaggle&logoColor=EEF0FF" alt="Kaggle" /></a>
-  <a href="https://medium.com/@aliaagamal"><img src="https://img.shields.io/badge/MEDIUM-1B1740?style=for-the-badge&logo=medium&logoColor=EEF0FF" alt="Medium" /></a>
-</p>
+\<p align="center">
+&#x20; \<a href="[https://aliaa-portfolio-drab.vercel.app/](https://aliaa-portfolio-drab.vercel.app/)">\<img src="[https://img.shields.io/badge/PORTFOLIO-1B1740?style=for-the-badge&logo=vercel&logoColor=EEF0FF](https://img.shields.io/badge/PORTFOLIO-1B1740?style=for-the-badge\&logo=vercel\&logoColor=EEF0FF)" alt="Portfolio" />\</a>
+&#x20; \<a href="[https://www.linkedin.com/in/aliaa-gamall](https://www.linkedin.com/in/aliaa-gamall)">\<img src="[https://img.shields.io/badge/LINKEDIN-1B1740?style=for-the-badge&logo=linkedin&logoColor=EEF0FF](https://img.shields.io/badge/LINKEDIN-1B1740?style=for-the-badge\&logo=linkedin\&logoColor=EEF0FF)" alt="LinkedIn" />\</a>
+&#x20; \<a href="mailto\:alliaagamall\@gmail.com">\<img src="[https://img.shields.io/badge/EMAIL-1B1740?style=for-the-badge&logo=gmail&logoColor=EEF0FF](https://img.shields.io/badge/EMAIL-1B1740?style=for-the-badge\&logo=gmail\&logoColor=EEF0FF)" alt="Email" />\</a>
+&#x20; \<a href="[https://kaggle.com/aliaagamal](https://kaggle.com/aliaagamal)">\<img src="[https://img.shields.io/badge/KAGGLE-1B1740?style=for-the-badge&logo=kaggle&logoColor=EEF0FF](https://img.shields.io/badge/KAGGLE-1B1740?style=for-the-badge\&logo=kaggle\&logoColor=EEF0FF)" alt="Kaggle" />\</a>
+&#x20; \<a href="[https://medium.com/@aliaagamal](https://medium.com/@aliaagamal)">\<img src="[https://img.shields.io/badge/MEDIUM-1B1740?style=for-the-badge&logo=medium&logoColor=EEF0FF](https://img.shields.io/badge/MEDIUM-1B1740?style=for-the-badge\&logo=medium\&logoColor=EEF0FF)" alt="Medium" />\</a>
+\</p>
 
 I bridge software engineering and cloud infrastructure to build reliable, scalable systems: infrastructure and networking, backend services, automation, and deployment. I graduated in Computer Science from Zagazig University in 2026 (GPA 3.7/4.0, with honors).
 
 I like to own the whole path, so most of my projects start at the application code and end at the infrastructure it runs on. I work in small tested increments, secure every layer, automate delivery, add observability, and document decisions so the work is easy to review and hand over.
 
-<p align="center">
-  <img src="assets/code-to-prod.svg" width="100%" alt="Pipeline from code to production: code, package, pipeline, infrastructure, orchestrate, observe, with the tools used at each stage." />
-</p>
+\<p align="center">
+&#x20; \<img src="assets/code-to-prod.svg" width="100%" alt="Pipeline from code to production: code, package, pipeline, infrastructure, orchestrate, observe, with the tools used at each stage." />
+\</p>
 
-<br/>
+\<br/>
 
 ## Featured work
 
@@ -30,12 +30,12 @@ I like to own the whole path, so most of my projects start at the application co
 
 My NTI Cloud Operations graduation project: a multi-tier web application infrastructure designed around scalability, reliability, security, and repeatable deployments. The application and data layers are private behind CloudFront and WAF. Access follows least-privilege IAM (Secrets Manager, VPC endpoints, Systems Manager), infrastructure is defined in Terraform modules, and the app ships as Docker images through GitHub Actions with scripted validation.
 
-<p align="center">
-  <img src="assets/retailedge.svg" width="100%" alt="RetailEdge architecture: user to CloudFront and WAF, then S3 for the frontend and an internal ALB for the API, into a private EC2 Auto Scaling tier and RDS MySQL plus Redis, all defined with Terraform." />
-</p>
+\<p align="center">
+&#x20; \<img src="assets/retailedge.svg" width="100%" alt="RetailEdge architecture: user to CloudFront and WAF, then S3 for the frontend and an internal ALB for the API, into a private EC2 Auto Scaling tier and RDS MySQL plus Redis, all defined with Terraform." />
+\</p>
 
-<details>
-<summary>Same diagram as editable Mermaid</summary>
+\<details>
+\<summary>Same diagram as editable Mermaid\</summary>
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ flowchart LR
     T -.-> D1
 ```
 
-</details>
+\</details>
 
 **Stack:** AWS, Terraform, Docker, GitHub Actions, MySQL (RDS), Redis
 
@@ -60,9 +60,9 @@ flowchart LR
 
 A legal assistant for Egyptian criminal law, built as my CS graduation project. It answers questions and analyses cases with retrieval-augmented generation, using a fine-tuned multilingual embedding model, and exposes everything through a FastAPI API.
 
-<p align="center">
-  <img src="assets/verdict-ai.svg" width="100%" alt="Verdict AI pipeline: question, fine-tuned embeddings, retrieval with LlamaIndex and Pinecone, answer, FastAPI." />
-</p>
+\<p align="center">
+&#x20; \<img src="assets/verdict-ai.svg" width="100%" alt="Verdict AI pipeline: question, fine-tuned embeddings, retrieval with LlamaIndex and Pinecone, answer, FastAPI." />
+\</p>
 
 **Stack:** FastAPI, RAG, LlamaIndex, Pinecone, Docker
 
@@ -70,114 +70,114 @@ A legal assistant for Egyptian criminal law, built as my CS graduation project. 
 
 A local-first microservices platform that simulates an e-commerce order flow across three Node.js services (API Gateway, Order and Payment), with a PostgreSQL database per service, SQL migrations, and Docker Compose with health checks and startup ordering. It has structured JSON logging (Pino) with request ID correlation across services, Prometheus metrics (request rate, latency histograms, error rate, business counters) in a provisioned Grafana dashboard, and automated tests across unit/API, end-to-end, integration, logging, and metrics layers, including tests that verify the observability layer itself. Next: centralized logging (Fluent Bit and Loki), distributed tracing (OpenTelemetry and Jaeger), alerting (Alertmanager), and Kubernetes.
 
-<p align="center">
-  <img src="assets/pulsetrace.svg" width="100%" alt="PulseTrace: a gateway and two services with their own databases emit logs and metrics. Prometheus and Grafana are implemented; Loki, Jaeger and Alertmanager are planned." />
-</p>
+\<p align="center">
+&#x20; \<img src="assets/pulsetrace.svg" width="100%" alt="PulseTrace: a gateway and two services with their own databases emit logs and metrics. Prometheus and Grafana are implemented; Loki, Jaeger and Alertmanager are planned." />
+\</p>
 
 **Stack:** Node.js, Express, PostgreSQL, Docker Compose, Pino, Prometheus, Grafana
 
 **Code:** [GitHub](https://github.com/aliaagamall/pulsetrace)
 
-<br/>
+\<br/>
 
-<details>
-<summary><b>More projects</b> (cloud, reliability, distributed systems, data science)</summary>
+\<details>
+\<summary>\<b>More projects\</b> (cloud, reliability, distributed systems, data science)\</summary>
 
-<br/>
+\<br/>
 
-| Project | What it is | Stack | Link |
-| --- | --- | --- | --- |
-| AWS Cloud Projects (in progress) | Hands-on AWS projects I rebuild while studying the Packt AWS Cloud Projects course on Coursera, each one designed, provisioned with IaC, tested, and documented | AWS, Terraform, CloudFormation | [GitHub](https://github.com/aliaagamall/cloud-projects) |
-| Site Reliability Engineering (in progress) | Course notes, hands-on labs, diagrams, and examples on SLIs and SLOs, error budgets, observability, incidents, toil, and GitOps recovery | SRE, Observability | [GitHub](https://github.com/aliaagamall/site-reliability-engineering) |
-| Test design for a sailing-rules method | Equivalence partitioning, statement coverage (JaCoCo), combinational testing, and random testing on a Java method | Java, TestNG, JaCoCo | [Report](https://drive.google.com/file/d/1KncfHyRIVb04JdmHhv6Ej6lNhTCK08Pe/view?usp=drivesdk) |
-| Distributed Systems Research | Comparison of replication protocols (Primary-Backup, Chain Replication, CRAQ) with a SimPy simulation | Python, SimPy | [Document](https://docs.google.com/document/d/1DzpsZYGCqlCW_qIQgCOPHbceJzTQaZXg/edit?usp=drivesdk&ouid=106368767340190355862&rtpof=true&sd=true) |
-| AI Financial Chatbot | RAG and generative AI app that turns financial data into natural-language answers | RAG, Generative AI | [GitHub](https://github.com/aliaagamall/ALCHATBOT_FINANCE) |
-| Bank Customer Churn Prediction | ML model with an interactive Streamlit app and a Power BI dashboard | Scikit-learn, Streamlit, Power BI | [GitHub](https://github.com/aliaagamall/data_science_projects/blob/master/bank_customer_churn_prediction) |
-| MediPredict | Ordinal classification app with SMOTE-based preprocessing and Flask deployment | Scikit-learn, Flask | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/master/MediPredict) |
-| Life Expectancy Prediction | Data preprocessing, model training, and Flask-based deployment | Flask, Scikit-learn | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/13de533e67768e755f621fad10efaad2ef5340e9/life-expectancy) |
-| Student Performance & Behavior Analysis | Exploratory and statistical analysis of student outcomes | Pandas, EDA | [Kaggle](https://www.kaggle.com/code/aliaagamal/student-performance-behavior-analysis) |
-| Email Classification | NLP classifier for abusive and non-abusive email text | NLP, Scikit-learn | [Kaggle](https://www.kaggle.com/code/aliaagamal/email-classification) |
+| Project                                    | What it is                                                                                                                                                      | Stack                             | Link                                                                                                                                                |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AWS Cloud Projects (in progress)           | Hands-on AWS projects I rebuild while studying the Packt AWS Cloud Projects course on Coursera, each one designed, provisioned with IaC, tested, and documented | AWS, Terraform, CloudFormation    | [GitHub](https://github.com/aliaagamall/cloud-projects)                                                                                             |
+| Site Reliability Engineering (in progress) | Course notes, hands-on labs, diagrams, and examples on SLIs and SLOs, error budgets, observability, incidents, toil, and GitOps recovery                        | SRE, Observability                | [GitHub](https://github.com/aliaagamall/site-reliability-engineering)                                                                               |
+| Test design for a sailing-rules method     | Equivalence partitioning, statement coverage (JaCoCo), combinational testing, and random testing on a Java method                                               | Java, TestNG, JaCoCo              | [Report](https://drive.google.com/file/d/1KncfHyRIVb04JdmHhv6Ej6lNhTCK08Pe/view?usp=drivesdk)                                                       |
+| Distributed Systems Research               | Comparison of replication protocols (Primary-Backup, Chain Replication, CRAQ) with a SimPy simulation                                                           | Python, SimPy                     | [Document](https://docs.google.com/document/d/1DzpsZYGCqlCW_qIQgCOPHbceJzTQaZXg/edit?usp=drivesdk\&ouid=106368767340190355862\&rtpof=true\&sd=true) |
+| AI Financial Chatbot                       | RAG and generative AI app that turns financial data into natural-language answers                                                                               | RAG, Generative AI                | [GitHub](https://github.com/aliaagamall/ALCHATBOT_FINANCE)                                                                                          |
+| Bank Customer Churn Prediction             | ML model with an interactive Streamlit app and a Power BI dashboard                                                                                             | Scikit-learn, Streamlit, Power BI | [GitHub](https://github.com/aliaagamall/data_science_projects/blob/master/bank_customer_churn_prediction)                                           |
+| MediPredict                                | Ordinal classification app with SMOTE-based preprocessing and Flask deployment                                                                                  | Scikit-learn, Flask               | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/master/MediPredict)                                                              |
+| Life Expectancy Prediction                 | Data preprocessing, model training, and Flask-based deployment                                                                                                  | Flask, Scikit-learn               | [GitHub](https://github.com/aliaagamall/data_science_projects/tree/13de533e67768e755f621fad10efaad2ef5340e9/life-expectancy)                        |
+| Student Performance & Behavior Analysis    | Exploratory and statistical analysis of student outcomes                                                                                                        | Pandas, EDA                       | [Kaggle](https://www.kaggle.com/code/aliaagamal/student-performance-behavior-analysis)                                                              |
+| Email Classification                       | NLP classifier for abusive and non-abusive email text                                                                                                           | NLP, Scikit-learn                 | [Kaggle](https://www.kaggle.com/code/aliaagamal/email-classification)                                                                               |
 
-</details>
+\</details>
 
-<br/>
+\<br/>
 
 ## Toolbox
 
 **Cloud and infrastructure**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux&perline=5" height="44" alt="Cloud and infrastructure" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux&perline=5](https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux\&perline=5)" height="44" alt="Cloud and infrastructure" />
+\</p>
 
 **CI/CD and automation**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=githubactions,git,github,bash&perline=4" height="44" alt="CI/CD and automation" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=githubactions,git,github,bash&perline=4](https://skillicons.dev/icons?i=githubactions,git,github,bash\&perline=4)" height="44" alt="CI/CD and automation" />
+\</p>
 
 **Observability**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=2" height="44" alt="Observability" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=prometheus,grafana&perline=2](https://skillicons.dev/icons?i=prometheus,grafana\&perline=2)" height="44" alt="Observability" />
+\</p>
 
 **Backend**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask&perline=7" height="44" alt="Backend" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask&perline=7](https://skillicons.dev/icons?i=python,javascript,java,nodejs,express,fastapi,flask\&perline=7)" height="44" alt="Backend" />
+\</p>
 
 **Data stores**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis&perline=3" height="44" alt="Data stores" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=mysql,postgres,redis&perline=3](https://skillicons.dev/icons?i=mysql,postgres,redis\&perline=3)" height="44" alt="Data stores" />
+\</p>
 
 **AI and data**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy&perline=5" height="44" alt="AI and data" />
-</p>
+\<p>
+&#x20; \<img src="[https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy&perline=5](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy\&perline=5)" height="44" alt="AI and data" />
+\</p>
 
 **Learning next — planned for PulseTrace**
 
-<p>
-  <img src="https://img.shields.io/badge/LOKI-1B1740?style=for-the-badge&logo=grafana&logoColor=EEF0FF" alt="Loki" />
-  <img src="https://img.shields.io/badge/OPENTELEMETRY-1B1740?style=for-the-badge&logo=opentelemetry&logoColor=EEF0FF" alt="OpenTelemetry" />
-  <img src="https://img.shields.io/badge/JAEGER-1B1740?style=for-the-badge&logo=jaeger&logoColor=EEF0FF" alt="Jaeger" />
-  <img src="https://img.shields.io/badge/FLUENT_BIT-1B1740?style=for-the-badge&logo=fluentbit&logoColor=EEF0FF" alt="Fluent Bit" />
-  <img src="https://img.shields.io/badge/ALERTMANAGER-1B1740?style=for-the-badge&logo=prometheus&logoColor=EEF0FF" alt="Alertmanager" />
-</p>
+\<p>
+&#x20; \<img src="[https://img.shields.io/badge/LOKI-1B1740?style=for-the-badge&logo=grafana&logoColor=EEF0FF](https://img.shields.io/badge/LOKI-1B1740?style=for-the-badge\&logo=grafana\&logoColor=EEF0FF)" alt="Loki" />
+&#x20; \<img src="[https://img.shields.io/badge/OPENTELEMETRY-1B1740?style=for-the-badge&logo=opentelemetry&logoColor=EEF0FF](https://img.shields.io/badge/OPENTELEMETRY-1B1740?style=for-the-badge\&logo=opentelemetry\&logoColor=EEF0FF)" alt="OpenTelemetry" />
+&#x20; \<img src="[https://img.shields.io/badge/JAEGER-1B1740?style=for-the-badge&logo=jaeger&logoColor=EEF0FF](https://img.shields.io/badge/JAEGER-1B1740?style=for-the-badge\&logo=jaeger\&logoColor=EEF0FF)" alt="Jaeger" />
+&#x20; \<img src="[https://img.shields.io/badge/FLUENT_BIT-1B1740?style=for-the-badge&logo=fluentbit&logoColor=EEF0FF](https://img.shields.io/badge/FLUENT_BIT-1B1740?style=for-the-badge\&logo=fluentbit\&logoColor=EEF0FF)" alt="Fluent Bit" />
+&#x20; \<img src="[https://img.shields.io/badge/ALERTMANAGER-1B1740?style=for-the-badge&logo=prometheus&logoColor=EEF0FF](https://img.shields.io/badge/ALERTMANAGER-1B1740?style=for-the-badge\&logo=prometheus\&logoColor=EEF0FF)" alt="Alertmanager" />
+\</p>
 
-<br/>
+\<br/>
 
 ## GitHub activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=aliaagamall&background=EEF0FF&border=1B1740&ring=FF6B8B&fire=FF6B8B&currStreakNum=1B1740&currStreakLabel=1B1740&sideNums=1B1740&sideLabels=4A4670&dates=4A4670&hide_border=false&border_radius=12" alt="GitHub streak" />
-</p>
+\<p align="center">
+&#x20; \<img height="165" src="[https://github-readme-streak-stats.herokuapp.com?user=aliaagamall&background=EEF0FF&border=1B1740&ring=FF6B8B&fire=FF6B8B&currStreakNum=1B1740&currStreakLabel=1B1740&sideNums=1B1740&sideLabels=4A4670&dates=4A4670&hide_border=false&border_radius=12](https://github-readme-streak-stats.herokuapp.com?user=aliaagamall\&background=EEF0FF\&border=1B1740\&ring=FF6B8B\&fire=FF6B8B\&currStreakNum=1B1740\&currStreakLabel=1B1740\&sideNums=1B1740\&sideLabels=4A4670\&dates=4A4670\&hide_border=false\&border_radius=12)" alt="GitHub streak" />
+\</p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/followers/aliaagamall?label=FOLLOWERS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/aliaagamall?label=STARS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="GitHub stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=PUBLIC%20REPOS&query=$.public_repos&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF" alt="Public repositories" />
-</p>
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/github/followers/aliaagamall?label=FOLLOWERS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF](https://img.shields.io/github/followers/aliaagamall?label=FOLLOWERS\&style=for-the-badge\&color=1B1740\&logo=github\&logoColor=EEF0FF)" alt="GitHub followers" />
+&#x20; \<img src="[https://img.shields.io/github/stars/aliaagamall?label=STARS&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF](https://img.shields.io/github/stars/aliaagamall?label=STARS\&style=for-the-badge\&color=1B1740\&logo=github\&logoColor=EEF0FF)" alt="GitHub stars" />
+&#x20; \<img src="[https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall&label=PUBLIC%20REPOS&query=$.public_repos&style=for-the-badge&color=1B1740&logo=github&logoColor=EEF0FF](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/aliaagamall\&label=PUBLIC%20REPOS\&query=$.public_repos\&style=for-the-badge\&color=1B1740\&logo=github\&logoColor=EEF0FF)" alt="Public repositories" />
+\</p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake" />
-  </picture>
-</p>
+\<p align="center">
+&#x20; \<picture>
+&#x20;   \<source media="(prefers-color-scheme: dark)" srcset="[https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake-dark.svg](https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake-dark.svg)" />
+&#x20;   \<img src="[https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake.svg](https://raw.githubusercontent.com/aliaagamall/aliaagamall/output/github-contribution-grid-snake.svg)" width="100%" alt="GitHub contribution snake" />
+&#x20; \</picture>
+\</p>
 
-<br/>
+\<br/>
 
 ## Now
 
 I am adding observability to PulseTrace (logs, traces, alerting), building AWS projects from the Packt course, and studying SRE and DevSecOps. I am also preparing for the AWS Solutions Architect certification.
 
-<br/>
+\<br/>
 
 ## Background
 
@@ -194,10 +194,10 @@ I am adding observability to PulseTrace (logs, traces, alerting), building AWS p
 - [**Top 10 Finalist, DevFest Mansoura Hackathon**](https://drive.google.com/file/d/1qqIlc4yHGBIejg0-iQGVsKmuDpAbaDjU/view?usp=drivesdk) (Dec 2024), team CS Pioneers.
 - **GDG Lead:** guided students and supported their learning in technical topics.
 
-<details>
-<summary><b>Certifications</b></summary>
+\<details>
+\<summary>\<b>Certifications\</b>\</summary>
 
-<br/>
+\<br/>
 
 **Cloud and DevOps**
 
@@ -235,18 +235,14 @@ I am adding observability to PulseTrace (logs, traces, alerting), building AWS p
 - [Data Cleaning, Kaggle](https://www.kaggle.com/learn/certification/aliaagamal/data-cleaning)
 - [TinyML, edX](https://courses.edx.org/certificates/2cabe3fb40104fe2a5521c1c729284ed)
 
-</details>
+\</details>
 
-<br/>
+\<br/>
 
-<p align="center">
-  <i>From application code to cloud infrastructure: building reliable systems, one layer at a time.</i>
-</p>
+\<p align="center">
+&#x20; \<i>From application code to cloud infrastructure: building reliable systems, one layer at a time.\</i>
+\</p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B8B,100:A58BFF&height=120&section=footer" width="100%" alt="Decorative portfolio footer" />
-</p>
+\<p align="center">   \<img src="[https://capsule-render.vercel.app/api?type=waving&color=0\:FF6B8B,100\:A58BFF&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving\&color=0\:FF6B8B,100\:A58BFF\&height=120\&section=footer)" width="100%" alt="Decorative portfolio footer" /> \</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aliaagamall&label=PROFILE%20VIEWS&color=1B1740&style=for-the-badge" alt="Profile views" />
-</p>
+\<p align="center">   \<img src="[https://komarev.com/ghpvc/?username=aliaagamall&label=PROFILE%20VIEWS&color=1B1740&style=for-the-badge](https://komarev.com/ghpvc/?username=aliaagamall\&label=PROFILE%20VIEWS\&color=1B1740\&style=for-the-badge)" alt="Profile views" /> \</p>
